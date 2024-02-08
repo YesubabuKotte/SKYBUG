@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/2ed82e5a63.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="nav-bar">
+            <nav>
+                <img src="images/babupng9.png" width="240px" height="100px" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="img-div">
+                <div class="text-header">
+                    <p>Frontend Developer</p>
+                    <h1>Hi, I'm <span> Yesubabu</span><br><p>Kotte from Hyderabad</p></h1>
+                </div>
+                <div class="img-babu">
+                    <img src="images/babupic.jpg">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!--                                                  about                                              -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-column-1">
+                    <img src="images/babupic.jpg">
+                </div>
+                <div class="about-column-2">
+                    <h1 class="h1-title">About Me</h1>
+                    <p>Aspiring Python Developer seeking an entry-level position to apply my strong programming 
+                       skills and knowledge in software development. Motivated by the opportunity to
+                       contribute to innovative projects,I am ready to embrace challenges, learn, and grow
+                       as a part of a dedicated development team.</p>
+
+                       <div class="titles">
+                            <p class="title-links active-links" onclick="opentab('skills')">Skills</p>
+                            <p class="title-links" onclick="opentab('experience')">Experience</p>
+                            <p class="title-links" onclick="opentab('education')">Education</p>
+                       </div>
+                       <div class="title-contents active-title" id="skills">
+                        <ul>
+                            <li><span>Python Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web/App Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                            
+                       </ul>
+                       </div>
+                       <div class="title-contents" id="experience">
+                        <ul>
+                            <li><span>01/2023 - 02/2023</span><br>Oasis Infobyte</li>
+                            <li><span>01/2024 - 02/2024</span><br>Skybug Technologies</li>
+                            <li><span>Web Development</span><br>Building Web Applications</li>
+                            
+                       </ul>
+                       </div>
+                       <div class="title-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech (2019-2023)</span><br> @RGUKT-IIIT Ongole <br> I have secured CGPA of 8.3</li>
+                            <li><span>Pre-University Course (2017-2019)</span><br>@RGUKT-IIIT Ongole<br> I have secured CGPA of 9.0</li>
+                            <li><span>SSC (2017)</span><br>@ZPH School Pidikitivanipalli<br> I have secured CGPA of 9.0</li>
+                            
+                       </ul>
+                       </div>
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--                      Services                    -->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="h1-title">My Services</h1>
+        <div class="ser-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Designing web pages and web applications with Web technologies</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Python Development</h2>
+                <p>Designing web pages and web applications with frontend technologies</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-rocket"></i>
+                <h2>App Design</h2>
+                <p>Designing web pages and web applications with App development technologies</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--                      Portfolio                              -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="h1-title">My Work</h1>
+        <div class="w-list">
+            <div class="work"> 
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Bill Generation</h3>
+                        <p>This app connect's you to the world</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+            </div>
+            <div class="work"> 
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Facebook Clone</h3>
+                    <p>This app connect's you to the world</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div> 
+            </div>
+            <div class="work"> 
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>This app connect's you to the world</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div> 
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--                 Contact                   -->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="c-left">
+                <h1 class="h1-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> yesubabukotte@gamil.com</p>
+                <p><i class="fa-solid fa-phone"></i> 1234567890</p>
+                <div class="s-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="c-right">
+                <form>
+                    <input type="text" name="'Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="copyright">
+    <p>Copyright © Yesubabu. Made with My Frontend Skills  &nbsp;<i class="fa-solid fa-heart"></i></p>
+</div>
+
+<!--                             Script                                        -->
+<script src="port.js">
+
+</script>
+
+</body>
+
+</html>
